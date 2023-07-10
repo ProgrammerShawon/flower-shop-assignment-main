@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #e5547310;
+  padding: 20px 60px;
+}
+
+.banner .left-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.banner .left-content h1 {
+  font-weight: 800;
+  color: #272727;
+  font-size: 80px;
+}
+.banner .left-content p {
+  color: #272727;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  margin: 20px 0px;
+}
+.banner .left-content button {
+  background-color: #e55473;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: "Lato", sans-serif;
+}
+.banner .right-content {
+  flex: 1;
+  padding: 20px;
+  text-align: right;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.featured-flowers {
+  margin-top: 100px;
+  padding: 20px 80px;
+}
+
+.featured-flowers h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #272727;
+  text-align: center;
+}
+.featured-flowers p {
+  font-size: 18px;
+  color: #272727;
+  text-align: center;
+  margin-top: 10px;
+  max-width: 594px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flower-tree-card_list {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.flower-tree-card_list .card-one .img {
+  background-color: #a7216215;
+  padding: 50px 60px 0px 60px;
+  border-radius: 300px 300px 0 0;
+  height: 508px;
+  display: flex;
+  /* width: 370px; */
+}
+
+.flower-tree-card_list .card-two .img {
+  background-color: #0597A015;
+  padding: 50px 60px 0px 60px;
+  border-radius: 300px 300px 0 0;
+  height: 508px;
+  display: flex;
+  align-items: center;
+  /* width: 370px; */
+}
+.flower-tree-card_list .card-three .img {
+  background-color: #477D1115;
+  padding: 50px 60px 0px 60px;
+  border-radius: 300px 300px 0 0;
+  /* width: 370px; */
+  display: flex;
+  height: 508px;
+}
+.flower-tree-card_list img {
+  width: 100%;
+  max-height: 100%;
+}
+.flower-tree-card_list .flower-tree-card p {
+  font-size: 24px;
+  font: bold;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+.hot-deal {
+  background-color: #e5547310;
+  margin-top: 60px;
+  padding: 80px 60px;
+}
+.hot-deal .container {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.hot-deal .container .left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hot-deal .container .left-content h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #272727;
+  text-align: center;
+}
+
+.hot-deal .container .left-content h1 span {
+  color: #e55473;
+}
+
+.hot-deal .container .left-content p {
+  font-size: 18px;
+  color: #27272790;
+  text-align: center;
+  max-width: 594px;
+  margin-top: 10px;
+}
+
+.hot-deal .container .left-content button {
+  background-color: #e55473;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+}
+
+.instagram-flowers {
+  margin-top: 100px;
+  padding: 20px 80px;
+}
+
+.instagram-flowers h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #272727;
+  text-align: center;
+}
+.instagram-flowers p {
+  font-size: 18px;
+  color: #272727;
+  text-align: center;
+  margin-top: 10px;
+  max-width: 594px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flower-card_list {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.get-deails {
+  margin-top: 60px;
+  padding: 0px 80px;
+}
+
+.get-deails .container {
+  background: url("./Flower\ Asset/Rectangle9.png");
+  width: 100%;
+  height: 449px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get-deails .container h1 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.get-deails .container p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #27272790;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  padding: 0px 300px;
+}
+.input-container input {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  flex: 1;
+}
+
+.input-container button {
+  background-color: #e55473;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: "Lato", sans-serif;
+  width: fit-content;
+}
+
+.footer {
+  margin-top: 80px;
+  background-color: #111010;
+  color: #fff;
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.footer h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+.footer h1 span {
+  font-weight: 900;
+  font-size: 48px;
+  color: #e55473;
+}
+
+.footer p {
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 625px;
+  text-align: center;
+}
+.footer span {
+  font-size: 16px;
+  margin-top: 20px;
+  max-width: 625px;
+  text-align: center;
+  color: #ffffff60;
+}
