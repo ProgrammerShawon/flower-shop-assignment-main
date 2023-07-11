@@ -191,7 +191,9 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
-
+.flower-card_list .img img {
+  width: 100%;
+}
 .get-deails {
   margin-top: 60px;
   padding: 0px 80px;
