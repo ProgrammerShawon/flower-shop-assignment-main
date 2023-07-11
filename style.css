@@ -247,6 +247,28 @@
   width: fit-content;
 }
 
+.details-features {
+  margin-top: 60px;
+  padding: 30px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.details-features img {
+  width: 100%;
+}
+.details-features .right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-features h1 {
+  font-size: 60px;
+}
+.details-features p {
+  font-size: 20px;
+  margin-top: 30px;
+}
 .footer {
   margin-top: 80px;
   background-color: #111010;
