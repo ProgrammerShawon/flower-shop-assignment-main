@@ -23,7 +23,7 @@
   font-size: 80px;
 }
 .banner .left-content p {
-  color: #272727;
+  color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-family: "Lato", sans-serif;
   margin: 20px 0px;
@@ -63,7 +63,7 @@
 }
 .featured-flowers p {
   font-size: 18px;
-  color: #272727;
+  color: rgba(39, 39, 39, 0.6);
   text-align: center;
   margin-top: 10px;
   max-width: 594px;
@@ -147,7 +147,7 @@
 
 .hot-deal .container .left-content p {
   font-size: 18px;
-  color: #27272790;
+  color: rgba(39, 39, 39, 0.6);
   text-align: center;
   max-width: 594px;
   margin-top: 10px;
@@ -177,7 +177,7 @@
 }
 .instagram-flowers p {
   font-size: 18px;
-  color: #272727;
+  color: rgba(39, 39, 39, 0.6);
   text-align: center;
   margin-top: 10px;
   max-width: 594px;
@@ -268,6 +268,7 @@
 .details-features p {
   font-size: 20px;
   margin-top: 30px;
+  color: rgba(39, 39, 39, 0.7);
 }
 .footer {
   margin-top: 80px;
